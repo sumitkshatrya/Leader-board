@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-all;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-4 rounded-lg transition-colors;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6;
+  }
+  
+  .card-title {
+    @apply text-xl font-bold text-purple-800 mb-4 pb-2 border-b border-gray-200;
+  }
+}
